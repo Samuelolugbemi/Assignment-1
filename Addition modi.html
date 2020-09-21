@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Program to Calculate sum of number, N from 1-N</title>
+</head>
+<body>
+	<h1>Program to find sum of number,N from 1-N</h1>
+	<script>
+		let N = parseInt(prompt("please enter a positive number"));
+		let sum=0;
+		for (let i = 1; i <=N; i++) {
+			if(i % 2 == 1){
+			sum= sum + i;
+			}
+		}
+		document.write(`${sum}`);
+	</script>
+</body>
+</html>
